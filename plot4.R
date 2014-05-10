@@ -28,7 +28,7 @@ plot4 <- function() {
         lines(parcial$DateTime,parcial$Voltage)
         
         ##Third grafic
-        plot(parcial$DateTime,parcial$Sub_metering_1,main = "", type = "n", ylab = "Energy sub metering", xlab = "",cex.axis = 0.5)
+        plot(parcial$DateTime,parcial$Sub_metering_1,main = "", type = "n", ylab = "Energy sub metering", xlab = "",cex.axis = 0.5,cex.lab = 0.5)
         points(parcial$DateTime,parcial$Sub_metering_1,pch=".")
         lines(parcial$DateTime,parcial$Sub_metering_1,col = "black")
         points(parcial$DateTime,parcial$Sub_metering_2, col = "red",pch=".")
